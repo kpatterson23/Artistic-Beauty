@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #F3DCD4;
+}
+
+footer {
+    background-color: #F3DCD4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.dropdown-menu {
+    background-color: #F3DCD4;
+}
+
+#founder {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px;
+}
