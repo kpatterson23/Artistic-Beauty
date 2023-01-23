@@ -21,6 +21,10 @@ footer {
     overflow: hidden;
 }
 
+.btn {
+    border-radius: 40px;
+}
+
 .dropdown-menu {
     background-color: #F3DCD4;
 }
