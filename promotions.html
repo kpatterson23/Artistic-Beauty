@@ -73,7 +73,8 @@
                         <div class="card-body">
                         <h5 class="card-title">30% off Shampoo and Blow-dry</h5>
                         <p class="card-text">Take 30% off shampoo and blow-dry service with any cut, color or style. Limited time only!</p>
-                        <a href="#" class="btn btn-dark">Book Now</a>
+                        <a href="#" class="btn btn-dark" data-toggle="modal"
+            data-target="#modalContactForm">Book Now</a>
                         </div>
                         <div class="card-footer text-muted">
                         30 days remaining
@@ -81,8 +82,6 @@
                     </div>
                 </div>
             </div>
-            
-
 
             <!-- Nail Promotions Section -->
             <div class="row">
@@ -94,7 +93,8 @@
                         <div class="card-body">
                         <h5 class="card-title">$5 Basic Manicure</h5>
                         <p class="card-text">Basic Manicures only $5 for a limited time only!</p>
-                        <a href="#" class="btn btn-dark">Book Now</a>
+                        <a href="#" class="btn btn-dark" data-toggle="modal"
+            data-target="#modalContactForm">Book Now</a>
                         </div>
                         <div class="card-footer text-muted">
                         30 days remaining
@@ -102,7 +102,6 @@
                     </div>
                 </div>
             </div>
-
 
             <!-- Makeup Promotions Section -->
             <div class="row">
@@ -114,7 +113,8 @@
                         <div class="card-body">
                         <h5 class="card-title">$10 Lash Extensions</h5>
                         <p class="card-text">Come get your new look with our limited time promotion on lash extensions!</p>
-                        <a href="#" class="btn btn-dark">Book now</a>
+                        <a href="#" class="btn btn-dark" data-toggle="modal"
+            data-target="#modalContactForm">Book now</a>
                         </div>
                         <div class="card-footer text-muted">
                         30 days remaining
@@ -125,7 +125,55 @@
         </div>
     </section>
 
-    
+    <!-- Contact Modal -->
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center" style="background-color: #F3DCD4">
+                    <h4 class="modal-title w-100 font-weight-bold">Book Your Appointment</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-1">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="form34" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                    </div>
+
+                    <div class="md-form mb-1">
+                        <i class="fas fa-phone prefix grey-text"></i>
+                        <input type="tel" id="form29" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form29">Phone Number</label>
+                    </div>
+
+                    <div class="md-form mb-1">
+                        <i class="fas fa-tag prefix grey-text"></i>
+                        <input type="text" id="form32" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form32">Requested Service</label>
+                    </div>
+
+                    <div class="md-form mb-1">
+                        <i class="fas fa-calendar prefix grey-text"></i>
+                        <input type="date" id="form21" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form21">Date</label>
+                    </div>
+
+                    <div class="md-form">
+                        <i class="fas fa-pencil prefix grey-text"></i>
+                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                        <label data-error="wrong" data-success="right" for="form8">Additional Details</label>
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-dark">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Main Footer -->

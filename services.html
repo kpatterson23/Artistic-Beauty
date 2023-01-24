@@ -42,7 +42,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services  <span class="sr-only">(current)</span>
+                        Services <span class="sr-only">(current)</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="services.html?collapse=collapseOne">Hair Services</a>
@@ -55,172 +55,223 @@
     </nav>
 
     <!-- Services Title -->
-        <div class="container">
-            <div class="row">
-                <div class="col pt-5 pb-5 text-center">
-                    <h1 class="text-center">Beauté Artistique Services</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col pt-5 pb-5 text-center">
+                <h1 class="text-center">Beauté Artistique Services</h3>
                     <p class="text-center">Discuss special request with your stylist</p>
-                    <a class="btn btn-dark btn-lg" href="#" role="button">Book Now</a>
-                </div>
+                    <a class="btn btn-dark btn-lg" href="#" role="button" data-toggle="modal"
+                        data-target="#modalContactForm">Book Now</a>
             </div>
+        </div>
 
-            <!-- Service Accordion -->
-            <div class="accordion pb-5" id="accordion">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
-                                Hair Services
-                            </button>
-                        </h5>
+        <!-- Contact Modal -->
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center" style="background-color: #F3DCD4">
+                        <h4 class="modal-title w-100 font-weight-bold">Book Your Appointment</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Braids</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Child Twist</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Coloring</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Crochet</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Cutting</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Extensions</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Individuals</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Perm</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Press and Curl</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Retwist</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Shampoo and Blow-dry</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Straightening</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Styling</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Take Out Only</h5>
-                                </div>
-                            </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-1">
+                            <i class="fas fa-user prefix grey-text"></i>
+                            <input type="text" id="form34" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="form34">Your name</label>
                         </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Nail Services
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Acrylic Full Set</h5>
-                                    <p>-With Tips</p>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Added Tips</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Basic Manicure</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Gel Manicure</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Polygel Full Set</h5>
-                                    <p>-With Tips</p>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Nail Art</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Spa Gel Manicure</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Spa Manicure</h5>
-                                </div>
-                            </div>
+
+                        <div class="md-form mb-1">
+                            <i class="fas fa-phone prefix grey-text"></i>
+                            <input type="tel" id="form29" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="form29">Phone Number</label>
                         </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Makeup Services
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Brow Tinting</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Brow Waxing</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Glam Makeup</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Lashes Extensions</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Lashes Tinting</h5>
-                                </div>
-                                <div class="col-md-4 text-center p-2 pb-3">
-                                    <h5>Natural Makeup</h5>
-                                </div>
-                            </div>
+
+                        <div class="md-form mb-1">
+                            <i class="fas fa-tag prefix grey-text"></i>
+                            <input type="text" id="form32" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="form32">Requested Service</label>
                         </div>
+
+                        <div class="md-form mb-1">
+                            <i class="fas fa-calendar prefix grey-text"></i>
+                            <input type="date" id="form21" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="form21">Date</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fas fa-pencil prefix grey-text"></i>
+                            <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                            <label data-error="wrong" data-success="right" for="form8">Additional Details</label>
+                        </div>
+
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col pb-5 text-center">
-                    <p>*Travel fee may be incurred if services are performed outside the salon.</p>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-dark">Book Now</button>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- Service Accordion -->
+        <div class="accordion pb-5" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Hair Services
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Braids</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Child Twist</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Coloring</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Crochet</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Cutting</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Extensions</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Individuals</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Perm</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Press and Curl</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Retwist</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Shampoo and Blow-dry</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Straightening</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Styling</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Take Out Only</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Nail Services
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Acrylic Full Set</h5>
+                                <p>-With Tips</p>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Added Tips</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Basic Manicure</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Gel Manicure</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Polygel Full Set</h5>
+                                <p>-With Tips</p>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Nail Art</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Spa Gel Manicure</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Spa Manicure</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Makeup Services
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Brow Tinting</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Brow Waxing</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Glam Makeup</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Lashes Extensions</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Lashes Tinting</h5>
+                            </div>
+                            <div class="col-md-4 text-center p-2 pb-3">
+                                <h5>Natural Makeup</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col pb-5 text-center">
+                <p>*Travel fee may be incurred if services are performed outside the salon.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Main Footer -->
     <footer class="py-5">
