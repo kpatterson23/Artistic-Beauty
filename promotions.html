@@ -1,222 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
 
     <!-- Additional CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,600|Playfair+Display" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Gothic+A1:300,600|Playfair+Display"
+      rel="stylesheet"
+    />
     <link href="CSS\styles.css" rel="stylesheet" type="text/css" />
 
     <!-- Font Awesome Link -->
-    <script src="https://kit.fontawesome.com/16fe7f1716.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/16fe7f1716.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Promotions</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Main Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="stock-photos\BA-logo-2.png" height="60" width="60"
-                class="rounded-circle" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Promotions <span class="sr-only">(current)</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="services.html?collapse=collapseOne">Hair Services</a>
-                        <a class="dropdown-item" href="services.html?collapse=collapseTwo">Nail Services</a>
-                        <a class="dropdown-item" href="services.html?collapse=collapseThree">Makeup Services</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="#"
+        ><img
+          src="stock-photos\BA-logo-2.png"
+          height="60"
+          width="60"
+          class="rounded-circle"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Promotions <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="services.html?collapse=collapseOne"
+                >Hair Services</a
+              >
+              <a class="dropdown-item" href="services.html?collapse=collapseTwo"
+                >Nail Services</a
+              >
+              <a
+                class="dropdown-item"
+                href="services.html?collapse=collapseThree"
+                >Makeup Services</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Promotions Title -->
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col pt-5 pb-5 text-center">
-                    <h1 class="text-center">Promotions</h1>
-                </div>
-            </div>
-
-            <!-- Hair Promotions Section -->
-            <div class="row">
-                <div class="col pb-5">
-                    <div class="card text-center">
-                        <div class="card-header" style="background-color: #F3DCD4;">
-                        Hair Promotion
-                        </div>
-                        <div class="card-body">
-                        <h5 class="card-title">30% off Shampoo and Blow-dry</h5>
-                        <p class="card-text">Take 30% off shampoo and blow-dry service with any cut, color or style. Limited time only!</p>
-                        <a href="#" class="btn btn-dark" data-toggle="modal"
-            data-target="#modalContactForm">Book Now</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                        30 days remaining
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Nail Promotions Section -->
-            <div class="row">
-                <div class="col pb-5">
-                    <div class="card text-center">
-                        <div class="card-header" style="background-color: #F3DCD4;">
-                        Nail Promotion
-                        </div>
-                        <div class="card-body">
-                        <h5 class="card-title">$5 Basic Manicure</h5>
-                        <p class="card-text">Basic Manicures only $5 for a limited time only!</p>
-                        <a href="#" class="btn btn-dark" data-toggle="modal"
-            data-target="#modalContactForm">Book Now</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                        30 days remaining
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Makeup Promotions Section -->
-            <div class="row">
-                <div class="col pb-5">
-                    <div class="card text-center">
-                        <div class="card-header" style="background-color: #F3DCD4;">
-                        Makeup Promotion
-                        </div>
-                        <div class="card-body">
-                        <h5 class="card-title">$10 Lash Extensions</h5>
-                        <p class="card-text">Come get your new look with our limited time promotion on lash extensions!</p>
-                        <a href="#" class="btn btn-dark" data-toggle="modal"
-            data-target="#modalContactForm">Book now</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                        30 days remaining
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col pt-5 pb-5 text-center">
+            <h1 class="text-center">Promotions</h1>
+          </div>
         </div>
+
+        <!-- Hair Promotions Section -->
+        <div class="row">
+          <div class="col pb-5">
+            <div class="card text-center">
+              <div class="card-header" style="background-color: #f3dcd4">
+                Hair Promotion
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">30% off Shampoo and Blow-dry</h5>
+                <p class="card-text">
+                  Take 30% off shampoo and blow-dry service with any cut, color
+                  or style. Limited time only!
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  data-toggle="modal"
+                  data-target="#modalContactForm"
+                  >Book Now</a
+                >
+              </div>
+              <div class="card-footer text-muted">30 days remaining</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nail Promotions Section -->
+        <div class="row">
+          <div class="col pb-5">
+            <div class="card text-center">
+              <div class="card-header" style="background-color: #f3dcd4">
+                Nail Promotion
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">$5 Basic Manicure</h5>
+                <p class="card-text">
+                  Basic Manicures only $5 for a limited time only!
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  data-toggle="modal"
+                  data-target="#modalContactForm"
+                  >Book Now</a
+                >
+              </div>
+              <div class="card-footer text-muted">30 days remaining</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Makeup Promotions Section -->
+        <div class="row">
+          <div class="col pb-5">
+            <div class="card text-center">
+              <div class="card-header" style="background-color: #f3dcd4">
+                Makeup Promotion
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">$10 Lash Extensions</h5>
+                <p class="card-text">
+                  Come get your new look with our limited time promotion on lash
+                  extensions!
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  data-toggle="modal"
+                  data-target="#modalContactForm"
+                  >Book now</a
+                >
+              </div>
+              <div class="card-footer text-muted">30 days remaining</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Modal -->
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center" style="background-color: #F3DCD4">
-                    <h4 class="modal-title w-100 font-weight-bold">Book Your Appointment</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body mx-3">
-                    <div class="md-form mb-1">
-                        <i class="fas fa-user prefix grey-text"></i>
-                        <input type="text" id="form34" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
-                    </div>
-
-                    <div class="md-form mb-1">
-                        <i class="fas fa-phone prefix grey-text"></i>
-                        <input type="tel" id="form29" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="form29">Phone Number</label>
-                    </div>
-
-                    <div class="md-form mb-1">
-                        <i class="fas fa-tag prefix grey-text"></i>
-                        <input type="text" id="form32" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="form32">Requested Service</label>
-                    </div>
-
-                    <div class="md-form mb-1">
-                        <i class="fas fa-calendar prefix grey-text"></i>
-                        <input type="date" id="form21" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="form21">Date</label>
-                    </div>
-
-                    <div class="md-form">
-                        <i class="fas fa-pencil prefix grey-text"></i>
-                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-                        <label data-error="wrong" data-success="right" for="form8">Additional Details</label>
-                    </div>
-
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-dark">Book Now</button>
-                </div>
+    <div
+      class="modal fade"
+      id="modalContactForm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div
+            class="modal-header text-center"
+            style="background-color: #f3dcd4"
+          >
+            <h4 class="modal-title w-100 font-weight-bold">
+              Book Your Appointment
+            </h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-1">
+              <i class="fas fa-user prefix grey-text"></i>
+              <input type="text" id="form34" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form34"
+                >Your name</label
+              >
             </div>
-        </div>
-    </div>
 
+            <div class="md-form mb-1">
+              <i class="fas fa-phone prefix grey-text"></i>
+              <input type="tel" id="form29" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form29"
+                >Phone Number</label
+              >
+            </div>
+
+            <div class="md-form mb-1">
+              <i class="fas fa-tag prefix grey-text"></i>
+              <input type="text" id="form32" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form32"
+                >Requested Service</label
+              >
+            </div>
+
+            <div class="md-form mb-1">
+              <i class="fas fa-calendar prefix grey-text"></i>
+              <input type="date" id="form21" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form21"
+                >Date</label
+              >
+            </div>
+
+            <div class="md-form">
+              <i class="fas fa-pencil prefix grey-text"></i>
+              <textarea
+                type="text"
+                id="form8"
+                class="md-textarea form-control"
+                rows="4"
+              ></textarea>
+              <label data-error="wrong" data-success="right" for="form8"
+                >Additional Details</label
+              >
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-dark">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Main Footer -->
     <footer class="py-5">
-        <div class="row">
-            <div class="col-12 col-md text-center">
-                <a href="index.html">
-                    <p class="mb-0">Beauté Artistique</p>
-                </a>
-                <small class="d-block mb-3 text-muted">&copy; 2023-2025</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Services</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="dropdown-item" href="services.html?collapse=collapseOne">Hair Services</a></li>
-                    <li><a class="dropdown-item" href="services.html?collapse=collapseTwo">Nail Services</a></li>
-                    <li><a class="dropdown-item" href="services.html?collapse=collapseThree">Makeup Services</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="aboutus.html">Team</a></li>
-                    <li><a class="text-muted" href="policies.html">Policies</a></li>
-                    <li><a class="text-muted" href="#">Promotions</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Socials</h5>
-                <a href="#"><i class="fa-brands fa-facebook fa-2xl fa-bounce"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter fa-2xl fa-bounce"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fa-2xl fa-bounce"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube fa-2xl fa-bounce"></i></a>
-            </div>
+      <div class="row">
+        <div class="col-12 col-md text-center">
+          <a href="index.html">
+            <p class="mb-0">Beauté Artistique</p>
+          </a>
+          <small class="d-block mb-3 text-muted">&copy; 2023-2025</small>
         </div>
+        <div class="col-6 col-md">
+          <h5>Services</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="dropdown-item" href="services.html?collapse=collapseOne"
+                >Hair Services</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="services.html?collapse=collapseTwo"
+                >Nail Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="services.html?collapse=collapseThree"
+                >Makeup Services</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="aboutus.html">Team</a></li>
+            <li><a class="text-muted" href="policies.html">Policies</a></li>
+            <li><a class="text-muted" href="#">Promotions</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Socials</h5>
+          <a href="#"><i class="fa-brands fa-facebook fa-2xl fa-bounce"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-2xl fa-bounce"></i></a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram fa-2xl fa-bounce"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-youtube fa-2xl fa-bounce"></i></a>
+        </div>
+      </div>
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
-
-</body>
-
+  </body>
 </html>
